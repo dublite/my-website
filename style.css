@@ -85,13 +85,6 @@ section {
     cursor: pointer;
 }
 
-/* Footer styles */
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-}
 .animation-container {
   display: flex;
   justify-content: center;
@@ -137,4 +130,12 @@ footer {
   100% {
     width: 100%;
   }
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
 }
