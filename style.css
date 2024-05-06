@@ -92,3 +92,49 @@ footer {
     text-align: center;
     padding: 20px;
 }
+.animation-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.text-animation {
+  font-size: 36px;
+  opacity: 0;
+  animation: fade-in 2s ease-in-out forwards;
+}
+
+.name {
+  position: relative;
+  display: inline-block;
+}
+
+.name::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: black;
+  animation: strike-through 1s 2s linear forwards;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes strike-through {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
