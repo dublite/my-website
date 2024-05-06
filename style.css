@@ -58,11 +58,6 @@ section {
     margin-bottom: 20px;
 }
 
-/* Resume section styles */
-#resume embed {
-    width: 100%;
-    height: 600px;
-}
 
 /* Contact section styles */
 #contact form {
