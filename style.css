@@ -38,7 +38,8 @@ section {
 
 /* Bio section styles */
 #bio {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    margin: 20px 0;
     background-color: #f4f4f4;
     text-align: center;
 }
